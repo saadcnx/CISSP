@@ -1,0 +1,139 @@
+Domain 1: Security and Risk Management (Continued)
+
+Identify, Analyze, and Prioritize Business Continuity (BC) Requirements
+
+- Develop and document scope and plan
+- Business Impact Analysis (BIA): Whatever happens, its impact on your business is called BIA.
+
+Think of your company as a giant robot.
+
+BIA (Business Impact Analysis) tells you: If the robot's arm breaks, how much damage will occur? If its eye is destroyed, how much? Can the robot be fixed in 2 hours or will it take 2 days?
+
+Business Continuity (BC) is the planning done in advance: "If the arm breaks, get a Stay Order from the High Court. If the eye is damaged, source duplicate parts from the Old City Area."
+
+RTO (Recovery Time Objective): How long can the system remain down? For example, if the Domain Controller is compromised, it must be back within 4 hours.
+RPO (Recovery Point Objective): How much data loss is acceptable? For example, losing 15 minutes of data is tolerable.
+
+You're not supposed to take down the client's server, but you are supposed to test their BC Plan. If you manage to get the Domain Controller's NTDS.dit file, ask the client: "Do you have a documented Tier-1 Admin Restore plan for this DC? If I were to encrypt this file (Ransomware simulation), what would your actual RTO be?"
+
+Contribute to and Enforce Personnel Security Policies and Procedures
+
+- Candidate screening and hiring
+- Employment agreements and policies
+- Onboarding and termination processes
+- Vendor, consultant, and contractor agreements and controls
+- Compliance policy requirements
+- Privacy policy requirements
+- Personnel Security Policies (Employee Lifecycle)
+
+This is the human firewall. Before bringing an employee in, do a background check. Once in, get them to sign an NDA. When they leave, take back the access card. Simple.
+
+Candidate Screening/Hiring: A new "high-priority" hire comes in through the client's HR. That same day, call the new employee from a fake LinkedIn profile posing as "HR Manager," saying "Welcome aboard! Before we issue your laptop, let's set up your corporate email. Please share an OTP." 90% will share it. The excitement of the hiring process is a vulnerability.
+
+Termination Process: This is the most dangerous time. Did your client revoke all of that employee's Admin access 24 hours in advance? In your Red Team exercise, test this: "An employee is giving voluntary resignation. During the notice period, what data did they steal?" (Diaper Genie attack / data exfiltration scenario).
+
+Understand and Apply Risk Management Concepts
+
+Identify threats and vulnerabilities
+Risk assessment/analysis
+Risk response
+Countermeasure selection and implementation
+Applicable types of controls (e.g., preventive, detective, corrective)
+Security Control Assessment (SCA)
+Monitoring and measurement
+Asset valuation
+Reporting
+Continuous improvement
+Risk frameworks
+
+Risk Response
+
+- Reduce (Mitigate): Deploy a firewall. The risk is reduced. This is what companies typically do.
+- Avoid: Cease the activity altogether. "Internet-exposed RDP? Disable it." Risk eliminated.
+- Transfer: Take out insurance. Or hand over responsibility to a Cloud provider. (Most often, risk is shared, not fully transferred.)
+- Accept: "We know the risk, but we won't do anything because the server is legacy and might break if patched." The CISO will sign off on this.
+
+Your pentest report is not just a list of bugs. It is a Risk Assessment Report. You identify the categories of Applicable Controls:
+
+Preventive (To stop): Firewall, IPS. (You bypassed the IPS? Preventive control failed.)
+Detective (To catch): SIEM, Logs. (You deleted the logs? Detective control failed.)
+Corrective (To fix): Backups, AV quarantine. (You encrypted the backups? Corrective control failed.)
+
+Understand and Apply Threat Modeling Concepts and Methodologies
+
+Threat modeling methodologies
+
+Threat modeling concepts
+
+Before leaving the house, you think: "Today it might rain (Threat), so I'll take an umbrella (Control)." Or, "A dog might bite on the way (Threat), so I'll take a stick (Control)." This is threat modeling.
+
+Methodologies: STRIDE (Microsoft), PASTA (Risk-Centric), Trike.
+
+STRIDE Methodology (Microsoft)
+STRIDE is an acronym — each letter represents a type of threat:
+
+Letter	Threat	Simple Meaning	Example
+S	Spoofing	Becoming fake	Fake login as admin
+T	Tampering	Modifying data	Changing amount in a transaction
+R	Repudiation	Saying "I didn't do it"	"I didn't make this transaction"
+I	Information Disclosure	Secret leak	Password, credit card exposed
+D	Denial of Service	Stopping work entirely	Crashing the server
+E	Elevation of Privilege	Small user becoming big	Normal user to admin
+
+Application Flow: User Login → Web Server → SQL Database
+
+Sit at the whiteboard and think:
+
+Component	STRIDE Threat	What could happen?
+Login Page	S (Spoofing)	Could someone log in with a fake username/password?
+Login Page	E (Privilege)	Can a normal user become admin?
+Web Server	T (Tampering)	Can I modify the request and alter data?
+SQL Database	I (Info Disclosure)	Can SQL injection leak all data?
+SQL Database	D (DoS)	Can heavy queries hang the database?
+
+Apply Risk-Based Management Concepts to the Supply Chain
+
+- Risks associated with hardware, software, and services
+- Third-party assessment and monitoring
+- Minimum security requirements
+
+Service-level requirements
+
+Establish and Maintain a Security Awareness, Education, and Training Program
+
+Methods and techniques to present awareness and training
+Periodic content reviews
+Program effectiveness evaluation
+
+For you, the Awareness Program is a Target List. If the company has conducted Phishing Awareness training, get the statistics: "Which department failed 60% of the time? Accounts? Sales?" Phish the people in that department. Their training has failed; you will gain entry.
+
+In your report, you'll write: "Awareness program effectiveness evaluation failed. We phished the Accounts department with a simple invoice-themed email."
+
+The CIA Connection
+CIA means Confidentiality, Integrity, Availability
+
+Confidentiality: Only those authorized to have access to the data can access the data.
+Integrity: Only those authorized to make changes can modify the data.
+Availability: Only those authorized to access data can do so when permitted.
+
+Additional CIA Properties
+
+Authenticity/Authentication: Verification of the identity.
+Accountability: Assurance of a transaction by providing auditability.
+Non-repudiation: Assurance of the transaction by proving the validity of the transaction.
+
+Security & Corporate Governance
+
+Evaluate and Apply Security Governance Principles
+Alignment of security function to business strategy, goals, mission, and objectives
+Organizational processes (e.g., acquisitions, divestitures, governance committees)
+Organizational roles and responsibilities
+Security control frameworks
+Due care/due diligence
+
+Interview Question: "What is the difference between Vulnerability Assessment and Penetration Testing?"
+
+"Sir, anyone can tell you that VA identifies, PT exploits.
+But from a Risk Management perspective, Penetration Testing is fundamentally a test of our Detective and Corrective Controls, not just our Preventive ones. Vulnerability Assessment finds missing patches (Preventive controls). My Penetration Test exploits them to see if the SOC detects the attack (Detective) and if the Operations team can recover the system (Corrective) within the defined RTO.
+If they can't, the risk is far higher than a simple CVE score suggests."
+
