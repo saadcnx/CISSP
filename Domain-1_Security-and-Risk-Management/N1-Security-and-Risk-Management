@@ -1,0 +1,42 @@
+Domain 1: Security and Risk Management
+
+This isn't just a domain where we learn about tools. Rather, it's the domain where we learn:
+
+Why shouldn't we hack? — Authorization, Rules of Engagement
+What should we hack? — Asset Classification, Scoping
+What happens if we get caught while hacking? — Laws, Regulations, Liability
+
+Simply put: If Offensive Security is like a race car, then Domain 1 is like the rulebook, track marshal, and insurance policy. If you show up without understanding the track, you'll get disqualified on the very first lap.
+
+CIA Triad (Confidentiality, Integrity, Availability)
+This is the ABC of CISSP.
+
+- Confidentiality — No sharing. Only authorized individuals see the data. (Encryption, Access Control)
+OffSec Link: You're extracting NTLM hashes? You're breaking Confidentiality.
+
+- Integrity — No tampering. Data must not be altered. (Hashing, Digital Signatures)
+OffSec Link: You're executing a Golden Ticket attack? You're breaking Integrity (forging data in Kerberos tickets).
+
+- Availability — Always accessible. When needed, it's there. (Redundancy, Backups, DDoS Protection)
+OffSec Link: You're performing a DDoS, taking down a server? You're breaking Availability.
+
+Interview Question: "How do you define risk?"
+
+Answer:
+"Some say Risk = Threat × Vulnerability. But in production, I define risk as the probability of a threat exploiting a vulnerability multiplied by the business impact. More importantly, I've learned that risk is subjective to the organization's risk appetite. For a bank, 2 seconds of downtime is a nightmare; for a startup website, 2 hours is just a Tuesday. As a penetration tester, my job is not just to find the 'Vulnerability' but to clearly articulate the 'Impact' so the business can make an informed risk decision."
+
+Production Reality
+
+In the real world, when you sign an Engagement Letter, its foundation is exactly this — Domain 1.
+
+Scope Creep (The Biggest Problem):
+The client says, "Hey, just add this IP to the test as well." And you do it without informing the SOC. You touch an "Out-of-Scope" IP and take down a Production server. The client will sue you.
+Domain 1 taught us: "Manage scope creep through a formal Change Request, never through verbal approval."
+
+Risk Appetite:
+The client says, "Don't touch my critical servers; I can't take that risk." Now you respond, "Sir/ma'am, then why conduct a penetration test if you won't test your crown jewels?"
+This is where Domain 1's risk management comes in: Their Risk Appetite is low. You need to explain that instead of a "Blind Test," you can mitigate the risk by taking a "Grey Box" approach — for example, by providing test accounts.
+
+Due Diligence vs. Due Care:
+A company deployed an Nmap scan trigger, but the SOC didn't notice the alert? They exercised Due Diligence (deploying the scanner) but failed at Due Care (monitoring alerts, responding). Pointing this out in your report highlights a governance failure.
+
