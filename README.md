@@ -1,16 +1,16 @@
-# 🔐 CISSP Certification Journey
+# 🔐 CISSP In-Depth learning
 
 ![CISSP](https://img.shields.io/badge/Certification-CISSP-blue?style=for-the-badge&logo=shield&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 ![Domains](https://img.shields.io/badge/Domains-8-green?style=for-the-badge)
 
-> A structured repository documenting my complete CISSP certification journey — personal notes, key concepts, practice questions, hands-on projects, and curated resources across all 8 domains.
+> A structured repository documenting my complete CISSP learning journey — personal notes, key concepts, practice questions, hands-on projects, and curated resources across all 8 domains.
 
 ---
 
 ## 👨‍💻 About This Repo
 
-This repository contains everything I'm using to prepare for the **CISSP (Certified Information Systems Security Professional)** exam — one of the most respected certifications in cybersecurity.
+This repository contains everything I'm using to everything to learn **CISSP (Certified Information Systems Security Professional)** 
 
 Each domain has its own dedicated folder containing:
 - 📝 Personal study notes
@@ -27,62 +27,21 @@ Each domain has its own dedicated folder containing:
 CISSP/
 │
 ├── 📁 Domain-1_Security-and-Risk-Management/
-│   ├── notes.md
-│   ├── key-concepts.md
-│   ├── practice-questions.md
-│   └── resources.md
 │
 ├── 📁 Domain-2_Asset-Security/
-│   ├── notes.md
-│   ├── key-concepts.md
-│   ├── practice-questions.md
-│   └── resources.md
 │
 ├── 📁 Domain-3_Security-Architecture-and-Engineering/
-│   ├── notes.md
-│   ├── key-concepts.md
-│   ├── practice-questions.md
-│   └── mini-projects/
 │
 ├── 📁 Domain-4_Communication-and-Network-Security/
-│   ├── notes.md
-│   ├── key-concepts.md
-│   ├── practice-questions.md
-│   └── mini-projects/
 │
 ├── 📁 Domain-5_Identity-and-Access-Management/
-│   ├── notes.md
-│   ├── key-concepts.md
-│   ├── practice-questions.md
-│   └── mini-projects/
 │
 ├── 📁 Domain-6_Security-Assessment-and-Testing/
-│   ├── notes.md
-│   ├── key-concepts.md
-│   ├── practice-questions.md
-│   └── mini-projects/
-│
+|
 ├── 📁 Domain-7_Security-Operations/
-│   ├── notes.md
-│   ├── key-concepts.md
-│   ├── practice-questions.md
-│   └── mini-projects/
-│
+|
 ├── 📁 Domain-8_Software-Development-Security/
-│   ├── notes.md
-│   ├── key-concepts.md
-│   ├── practice-questions.md
-│   └── mini-projects/
 │
-├── 📁 Practice-Exams/
-│   ├── mock-exam-1.md
-│   ├── mock-exam-2.md
-│   └── weak-areas-tracker.md
-│
-├── 📁 Resources/
-│   ├── books.md
-│   ├── youtube-channels.md
-│   └── online-tools.md
 │
 └── README.md
 ```
