@@ -102,15 +102,13 @@ Practical implementation of concepts learned across domains:
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Let's Connect & Collaborate
 
-If you're also on the CISSP journey or working in cybersecurity, feel free to reach out!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saad-khan-sysops/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saadcnx)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/saad__devops)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@saadcnx)
 
-Linkedin :- https://www.linkedin.com/in/saad-khan-sysops/
-Github :- https://github.com/saadcnx
-Twitter :- https://x.com/saad__devops
-Mastodon :- https://medium.com/@saadcnx
-Medium :- https://medium.com/@saadcnx
 ---
 
 > *"Security is not a product, but a process."* — Bruce Schneier
