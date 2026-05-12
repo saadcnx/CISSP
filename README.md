@@ -147,11 +147,11 @@ Practical implementation of concepts learned across domains:
 
 If you're also on the CISSP journey or working in cybersecurity, feel free to reach out!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/YOUR-PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/YOUR-USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)]([https://linkedin.com/in/YOUR-PROFILE](https://www.linkedin.com/in/saad-khan-sysops/))
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)]([https://github.com/YOUR-USERNAME](https://github.com/saadcnx))
 
 ---
 
 > *"Security is not a product, but a process."* — Bruce Schneier
 
-**Good luck to everyone on their CISSP journey! 🚀**
+**Good luck to everyone on their CISSP Learning! 🚀**
