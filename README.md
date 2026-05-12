@@ -2,7 +2,7 @@
 
 ![CISSP](https://img.shields.io/badge/Certification-CISSP-blue?style=for-the-badge&logo=shield&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![Domains](https://img.shields.io/badge/Domains-8-green?style=for-the-badge)
+![Domains](https://img.shields.io/badge/Domains-8-black?style=for-the-badge)
 
 > A structured repository documenting my complete CISSP learning journey — personal notes, key concepts, practice questions, hands-on projects, and curated resources across all 8 domains.
 
