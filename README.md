@@ -52,7 +52,7 @@ CISSP/
 
 | # | Domain | Exam Weight | Status |
 |---|--------|-------------|--------|
-| 1 | 🛡️ Security and Risk Management | 16% | 🔄 In Progress |
+| 1 | 🛡️ Security and Risk Management | 100% | Complete |
 | 2 | 📦 Asset Security | 10% | ⏳ Pending |
 | 3 | 🏗️ Security Architecture and Engineering | 13% | ⏳ Pending |
 | 4 | 🌐 Communication and Network Security | 13% | ⏳ Pending |
@@ -88,6 +88,7 @@ Practical implementation of concepts learned across domains:
 - 📙 *(ISC)² CISSP Official Study Guide* — Mike Chapple & James Michael Stewart
 
 ### Online Platforms
+- [Al Nafi International college](https://alnafi.com/) - Learning CISSP from here
 - [Destination Certification](https://www.destcert.com/) — Free domain mindmaps & video series
 - [ThorTeaches](https://thorteaches.com/) — Practice questions
 - [(ISC)² Official Practice Tests](https://www.isc2.org/) — Official exam prep
@@ -98,48 +99,6 @@ Practical implementation of concepts learned across domains:
 - **Pete Zerger** — CISSP study sessions
 - **Inside Cloud and Security** — Concept breakdowns
 
----
-
-## 📅 Study Plan
-
-| Phase | Weeks | Focus Area |
-|-------|-------|------------|
-| Phase 1 | Week 1–2 | Domain 1 — Security & Risk Management |
-| Phase 1 | Week 3 | Domain 2 — Asset Security |
-| Phase 2 | Week 4–5 | Domain 3 — Security Architecture |
-| Phase 2 | Week 6–7 | Domain 4 — Network Security |
-| Phase 3 | Week 8 | Domain 5 — IAM |
-| Phase 3 | Week 9 | Domain 6 — Assessment & Testing |
-| Phase 4 | Week 10 | Domain 7 — Security Operations |
-| Phase 4 | Week 11 | Domain 8 — Software Development Security |
-| Phase 5 | Week 12+ | Full Review + Mock Exams + Exam Booking |
-
----
-
-## 🎯 Exam At a Glance
-
-| Detail | Info |
-|--------|------|
-| **Format** | CAT (Computerized Adaptive Testing) |
-| **Questions** | 125–175 |
-| **Duration** | 4 hours |
-| **Passing Score** | 700 / 1000 |
-| **Experience Required** | 5 years in 2+ CISSP domains |
-| **Offered By** | (ISC)² |
-
----
-
-## ✅ Progress Tracker
-
-- [x] Repository structure created
-- [x] Started Domain 1 notes
-- [x] Domain 1 fully completed
-- [ ] All 8 domains covered
-- [ ] Mini projects completed
-- [ ] 2 full mock exams done
-- [ ] Weak areas reviewed
-- [ ] Exam scheduled
-- [ ] 🎉 CISSP Certified!
 
 ---
 
@@ -147,9 +106,11 @@ Practical implementation of concepts learned across domains:
 
 If you're also on the CISSP journey or working in cybersecurity, feel free to reach out!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)]([https://linkedin.com/in/YOUR-PROFILE](https://www.linkedin.com/in/saad-khan-sysops/))
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)]([https://github.com/YOUR-USERNAME](https://github.com/saadcnx))
-
+Linkedin :- https://www.linkedin.com/in/saad-khan-sysops/
+Github :- https://github.com/saadcnx
+Twitter :- https://x.com/saad__devops
+Mastodon :- https://medium.com/@saadcnx
+Medium :- https://medium.com/@saadcnx
 ---
 
 > *"Security is not a product, but a process."* — Bruce Schneier
